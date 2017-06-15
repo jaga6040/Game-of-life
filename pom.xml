@@ -495,4 +495,21 @@
             </reporting>
         </profile>
     </profiles>
+    
+    <distributionManagement>
+        <repositry>
+            <id>releases</id>
+            <name>Releases</name>
+            <url></url>
+        </repositry>  
+        
+        <snapshotRepositry>
+            <id>snapshots</id>
+            <name>Snapshots</name>
+            <url></url>
+        </snapshotRepositry>
+    </distributionManagement>    
+    
 </project>
+
+
