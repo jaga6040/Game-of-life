@@ -497,17 +497,18 @@
     </profiles>
     
     <distributionManagement>
-        <repositry>
+        
+        <repository>
             <id>releases</id>
             <name>Releases</name>
             <url>http://192.168.1.134:8081/nexus/content/repositories/releases/</url>
-        </repositry>  
+        </repository>  
         
-        <snapshotRepositry>
+        <snapshotRepository>
             <id>snapshots</id>
             <name>Snapshots</name>
             <url>http://192.168.1.134:8081/nexus/content/repositories/snapshots/</url>
-        </snapshotRepositry>
+        </snapshotRepository>
     </distributionManagement>    
     
 </project>
