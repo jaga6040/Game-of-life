@@ -463,7 +463,7 @@
                         <configuration>
                             <url>http://192.168.1.134:8082/manager/html</url>
                             <server>tomcat</server>
-                            <path>/gameoflife</path>
+                            <path>C:\Program Files (x86)\Jenkins\workspace\Tomcat_deploy1\gameoflife-web\target</path>
                         </configuration>
                     </plugin>
                     <plugin>
